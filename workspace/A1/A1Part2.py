@@ -24,4 +24,4 @@ def minMaxAudio(inputFile):
     """
     ## Your code here
     _, array = wavread(inputFile)
-    return [min(array), max(array)]
+    return (min(array), max(array))

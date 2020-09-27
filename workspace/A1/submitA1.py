@@ -235,7 +235,7 @@ partIds = ['A1-part-1', 'A1-part-2', 'A1-part-3']
 partFriendlyNames = ['Reading an audio file', 'Basic operations with audio', 'Python array indexing'] 
 
 # source files to collect (just for our records)
-sourceFiles = ['A1Part1.py', 'A1Part2.py', 'A1Part3.py']
+sourceFiles = ['A1Part1.py', 'A1Part2.py', 'A1Part3.py', 'A1Part4.py']
 
 def output(partIdx):
     """Uses the student code to compute the output for test cases."""
