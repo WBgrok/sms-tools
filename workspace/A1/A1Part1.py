@@ -32,6 +32,3 @@ def readAudio(inputFile):
     """
     _, array = wavread(inputFile)
     return array[50000:50009]
-
-if __name__ == '__main__':
-  print readAudio("../../sounds/piano.wav")

@@ -25,6 +25,3 @@ def minMaxAudio(inputFile):
     ## Your code here
     _, array = wavread(inputFile)
     return [min(array), max(array)]
-
-if __name__ == '__main__':
-    print minMaxAudio("../../sounds/oboe-A4.wav")
